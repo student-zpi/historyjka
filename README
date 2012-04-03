@@ -1,0 +1,49 @@
+Historyjka
+###########################################################################
+Projekt do przetestowania pracy z wieloma gałęziami na zdalnym repozytorium.
+
+Kwestie artystyczne
+-------------------
+W pliku noname.odt jest początek historyjki, którą trzeba samemu rozwinąć.
+Treść i tematyka dowolna. Proszę napisać minimum 5 zdań.
+Im lepiej tym więcej, ale nie przekraczamy 1 strony :)
+Historyjka powinna mieć jakiś tytył i najlepiej jakąś sensowną treść.
+Wszystkich autorów proszę o podpisanie się poniżej w miejscu "Jan Kowalski".
+
+Ćwiczenie przewiduje głosowanie na najlepszą historyjkę, której autorzy zostają 
+uhonorowani podniesieniem oceny o jeden stopień z kolokwium, gdyby nie napisali na bdb.
+Autorów jednej historyjki może być najwyżej dwóch.
+
+Kwestie techniczne
+------------------
+### Część I ###
+
+1) Gałąź master pozostawiamy całkowicie bez zmian. Wszystko robimy w innych gałęziach.
+2) Tworzymy gałąź na loklanym repozytorium o nazwie związanej z tematem jaki nadaliśmy
+   naszemu krótkiemu opowiadaniu. Ważne, żeby każda gałąź miała inną nazwę.
+   W ostateczności gałąź może mieć nazwę od nazwiska jedengo z autorów.
+3) W utworzonej gałęzi piszemy naszą krótką historyjkę. Wszyscy autorzy podpisują się.
+4) Nazwę pliku noname.odt zmieniamy na taką samą jak nazwa gałęzi (git mv).
+   Plik można nazwać również nazwiskiem jednego z autorów.
+5) Napisaną historyjkę w pliku o unikalnej nazwie, w gałęzi o takiej samej unikalnej nazwie
+   dodajemy do repozytorium, zatwierdzamy zmiany.
+6) Utworzoną lokalną gałąź z historyjką wywyłamy na serwer pod taką samą nazwą.
+   Docelowo powinno być tyle różnych gałęzi ile komputerów w laboratorium, najlepiej 10.
+
+### Część II ###
+
+7) W lokalnym repozytorium tworzymy gałąź 'glosowanie'.
+8) Do gałęzi 'glosowanie' scalamy wszystkie inne gałęzie z repozytorium poza gałęzią 'master'.
+   W gałęzi 'glosowanie' mają się znaleźć wszystkie napisane historyjki. Powinno się udać.
+9) Czytamy co kto napisał. Wybieramy od jednej do trzech najlepszych naszym zdanem historyjek
+   i głosujemy na naszych faworytów.
+
+Głosowanie
+
+10) Dodajemy do gałęzi tej historyjki, która nam się najbardziej podobała (mogą być trzy różne)
+    plik tekstowy z naszym imieniem i nazwiskiem, np. 'Jan.Kowalski'.
+    Gałąź (historyjka) z największą liczbą głosów będzie uznana z zwycięską, autorzy dostaną +1 do oceny.
+    W przypadku niejednoznaczności i/lub innych niespodziewanych problemów o zwycięstwie decyduje prowadzący.
+
+
+
