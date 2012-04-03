@@ -22,13 +22,13 @@ Kwestie techniczne
 2) Tworzymy gałąź na loklanym repozytorium o nazwie związanej z tematem jaki nadaliśmy
    naszemu krótkiemu opowiadaniu. Ważne, żeby każda gałąź miała inną nazwę.
    W ostateczności gałąź może mieć nazwę od nazwiska jedengo z autorów, np. 'Kowalski'.
-3) Nazwę pliku noname.odt zmieniamy na taką samą jak nazwa gałęzi (git mv).
+3) Kopiujemy plik 'noname.odt' do pliku o innej nazwie, takiej jak nazwa gałęzi.
    Plik można nazwać również nazwiskiem jednego z autorów.
 4) "Przez przypadek" w repozytorium jest plik wymiany z programu vim: '.README.swp'.
    Wszystkie pliki tego typu należy dodać do plików ignorowanych (.gitignore),
    a sam plik usunąć z repozytorium. Pliki tego typu nie mają być już śledzone.
-4) W utworzonej gałęzi piszemy naszą krótką historyjkę. Wszyscy autorzy podpisują się.
-5) Napisaną historyjkę w pliku o unikalnej nazwie, w gałęzi o takiej samej unikalnej nazwie
+4) W utworzonej gałęzi, w skopiowanym pliku piszemy naszą krótką historyjkę. Wszyscy autorzy podpisują się.
+5) Napisaną historyjkę (w pliku o unikalnej nazwie, w gałęzi o takiej samej unikalnej nazwie)
    dodajemy do repozytorium, zatwierdzamy zmiany.
 6) Utworzoną lokalną gałąź z historyjką wywyłamy na serwer pod taką samą nazwą.
    Docelowo powinno być tyle różnych gałęzi ile komputerów w laboratorium, najlepiej 10.
