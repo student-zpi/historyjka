@@ -21,10 +21,13 @@ Kwestie techniczne
 1) Gałąź master pozostawiamy całkowicie bez zmian. Wszystko robimy w innych gałęziach.
 2) Tworzymy gałąź na loklanym repozytorium o nazwie związanej z tematem jaki nadaliśmy
    naszemu krótkiemu opowiadaniu. Ważne, żeby każda gałąź miała inną nazwę.
-   W ostateczności gałąź może mieć nazwę od nazwiska jedengo z autorów.
-3) W utworzonej gałęzi piszemy naszą krótką historyjkę. Wszyscy autorzy podpisują się.
-4) Nazwę pliku noname.odt zmieniamy na taką samą jak nazwa gałęzi (git mv).
+   W ostateczności gałąź może mieć nazwę od nazwiska jedengo z autorów, np. 'Kowalski'.
+3) Nazwę pliku noname.odt zmieniamy na taką samą jak nazwa gałęzi (git mv).
    Plik można nazwać również nazwiskiem jednego z autorów.
+4) "Przez przypadek" w repozytorium jest plik wymiany z programu vim: '.README.swp'.
+   Wszystkie pliki tego typu należy dodać do plików ignorowanych (.gitignore),
+   a sam plik usunąć z repozytorium. Pliki tego typu nie mają być już śledzone.
+4) W utworzonej gałęzi piszemy naszą krótką historyjkę. Wszyscy autorzy podpisują się.
 5) Napisaną historyjkę w pliku o unikalnej nazwie, w gałęzi o takiej samej unikalnej nazwie
    dodajemy do repozytorium, zatwierdzamy zmiany.
 6) Utworzoną lokalną gałąź z historyjką wywyłamy na serwer pod taką samą nazwą.
@@ -44,6 +47,7 @@ Głosowanie
     plik tekstowy z naszym imieniem i nazwiskiem, np. 'Jan.Kowalski'.
     Gałąź (historyjka) z największą liczbą głosów będzie uznana z zwycięską, autorzy dostaną +1 do oceny.
     W przypadku niejednoznaczności i/lub innych niespodziewanych problemów o zwycięstwie decyduje prowadzący.
+
 
 
 
