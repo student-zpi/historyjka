@@ -5,8 +5,8 @@ Projekt do przetestowania pracy z wieloma gałęziami na zdalnym repozytorium.
 Kwestie artystyczne
 -------------------
 W pliku noname.odt jest początek historyjki, którą trzeba samemu rozwinąć.
-Treść i tematyka dowolna. Proszę napisać minimum 5 zdań.
-Im lepiej tym więcej, ale nie przekraczamy 1 strony :)
+Treść i tematyka dowolna. Proszę napisać minimum 5 zdań ale nie więcej niż strona.
+Bardzo proszę zmieścić się w 10-15 min. żeby był czas na ćwiczenia.
 Historyjka powinna mieć jakiś tytył i najlepiej jakąś sensowną treść.
 Wszystkich autorów proszę o podpisanie się poniżej w miejscu "Jan Kowalski".
 
@@ -38,6 +38,7 @@ Kwestie techniczne
 7) W lokalnym repozytorium tworzymy gałąź 'glosowanie'.
 8) Do gałęzi 'glosowanie' scalamy wszystkie inne gałęzie z repozytorium poza gałęzią 'master'.
    W gałęzi 'glosowanie' mają się znaleźć wszystkie napisane historyjki. Powinno się udać.
+   Niestety mogą się pojawić konflikty w pliku .gitignore, to jednak mało ważne, można rozwiązać dowolnie.
 9) Czytamy co kto napisał. Wybieramy od jednej do trzech najlepszych naszym zdanem historyjek
    i głosujemy na naszych faworytów.
 
